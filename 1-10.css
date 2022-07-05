@@ -5,6 +5,7 @@
 }
 
 header{
+  width: 100%;
   height: 50px;
   background-color: #FF9A4B;
 }
@@ -62,6 +63,7 @@ main{
 }
 
 footer{
+  width: 100%;
   height: 50px;
   background-color: #AAAAAA;
 }
@@ -69,16 +71,15 @@ footer{
 @media screen and (max-width: 768px){
   main{
     width: 100%;
-    margin: 50px 5%;
   }
 
   .box{
     width: 90%;
-    margin-bottom: 20px;
+    margin:0 5% 20px;
   }
 
   .box:last-child{
-    margin-bottom: 0;
+    margin:0 5%;
   }
 
 }
